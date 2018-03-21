@@ -1,0 +1,65 @@
+/*ul{
+	border:1px dotted black;
+}
+li{
+	border:1px dotted black;
+}*/
+#calendarDiv {
+	padding:0;
+	width: 300px;
+	background: #1abc9c;
+	text-align: center;
+}
+
+.weekdays {
+	margin: 0;
+	padding: 10px 0;
+	background-color:#ddd;
+}
+
+.weekdays li {
+	display: inline-block;
+	width: 13.6%;
+	color: #666;
+	text-align: center;
+}
+.days {
+	padding: 0 0;
+	background: #eee;
+	margin: 0;
+}
+
+.days img{
+	width:100%;
+	height:15px;
+}
+
+.days li{
+	list-style-type: none;
+	display: inline-block;
+	width: 13.6%;
+	text-align: center;
+	margin-bottom: 0px;
+	font-size:12px;
+	color: #777;
+}
+
+#daylist{
+	overflow:auto;
+	height:200px;
+	
+}
+
+.first{
+	border-left: 2px solid blue;
+}
+
+
+
+/* these should be moved to their own css */
+
+.mbutton{
+	width:300px;
+	margin-top:3px;
+	margin-bottom:3px;
+}

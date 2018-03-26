@@ -1,3 +1,16 @@
+body{
+	
+}
+
 .header {
     background-color: #bc2d2d;
+	font-size:25vw;
+}
+
+.header nav{
+	
+}
+.user-icon-lg{
+	width:auto;
+	height:auto;
 }

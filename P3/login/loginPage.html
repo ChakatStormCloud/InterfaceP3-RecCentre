@@ -1,47 +1,72 @@
 <!DOCTYPE html>
 <html lang=eng>
 
-  <head>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <link rel="stylesheet" href="css/css.css" type="text/css">
-      <script src="js/js.js" type="text/javascript"></script>
-  </head>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/login.css" type="text/css">
+  <script src="js/js.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-    <body>
-      <div class=row>
-        <div class=col-xs-12>
-          <div class="login-container">
-            <div class="login-title-container">
-              <!--Title label-->
-              <h1>Welcome! Please Log in!</h1>
+<body>
+  <div class="container">
+    <div class=row>
+      <div class=col-lg-12>
+        <div class="login-container">
+          <div class="row">
+            <div class=col-lg-12>
+              <div class="login-title-container">
+                <!--Title label-->
+                <h1 class="text-center my-1">Welcome! Please Log in!</h1>
+              </div>
             </div>
-            <div class="label-container">
-              <!--Username label-->
-              <h2>Please enter your username</h2>
+          </div>
+          <div class=row>
+            <div class=col-lg-12>
+              <div class="label-container">
+                <!--Username label-->
+                <h4 class="text-left my-1">Please enter your username:</h4>
+              </div>
             </div>
-            <div class="username-input-container">
-              <!--Username input-->
-              <input type="text" placeholder="username here">
+          </div>
+          <div class=row>
+            <div class=col-lg-12>
+              <div class="username-input-container">
+                <!--Username input-->
+                <input type="text" placeholder="Username" class="form-control my-1">
+              </div>
             </div>
-            <div class="label-container">
-              <!--Password label-->
-              <h2>Please enter the password</h2>
+          </div>
+          <div class=row>
+            <div class=col-lg-12>
+              <div class="label-container">
+                <!--Password label-->
+                <h4 class="text-left my-1">Please enter the password:</h4>
+              </div>
             </div>
-            <div class="password-input-container">
-              <!--pasword input-->
-              <input type="password">
+          </div>
+          <div class=row>
+            <div class=col-lg-12>
+              <div class="password-input-container">
+                <!--pasword input-->
+                <input type="password" placeholder="Password"class="form-control my-1">
+              </div>
             </div>
-            <div class="button-container">
-              <!--Button-->
-              <button>ENTER</button>
+          </div>
+          <div class=row>
+            <div class="col-lg-6 text-center">
+              <div class="button-container">
+                <!--Button-->
+                <input type="button" value="ENTER" class="btn btn-primary btn-block btn-md my-3">
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </body>
+    </div>
+  </div>
+</body>
 
 </html>

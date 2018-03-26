@@ -1,0 +1,23 @@
+.link {
+    text-align: center;
+    padding: 15px;
+    background-color: #a81b1b;
+    border: solid black 1px;
+    color: gray;
+}
+
+.link:hover {
+    background-color: #8d0f0f;
+}
+
+body {
+    background-color: #bc2d2d;
+}
+
+.row {
+    height: 30%;
+}
+
+.heading {
+    color: black;
+}

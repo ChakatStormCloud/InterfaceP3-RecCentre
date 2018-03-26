@@ -1,7 +1,7 @@
 .link {
     text-align: center;
     padding: 15px;
-    background-color: #a81b1b;
+    background-color: #ffffff;
     border: solid black 1px;
     color: gray;
 }
@@ -20,4 +20,32 @@ body {
 
 .heading {
     color: black;
+}
+
+.mainMenuImage1 {
+    width: 100%;
+    height: auto;
+}
+
+.mainMenuImage2 {
+    margin-top: 13%;
+    width: 75%;
+    height: auto
+}
+
+.mainMenuImage3 {
+    margin-top: 13%;
+    height: auto;
+    width: 40%;
+}
+
+.mainMenuImage4 {
+    margin-top: 13%;
+    height: auto;
+    width: 60%;
+}
+
+.mainMenuImage5 {
+    width: 100%;
+    height: auto;
 }

@@ -6,7 +6,7 @@
     color: gray;
 }
 
-.link:hover {
+.buttons:hover {
     background-color: #8d0f0f;
 }
 
@@ -14,17 +14,34 @@ body {
     background-color: #bc2d2d;
 }
 
+h2 {
+    text-align: left;
+    font-size: 80px;
+    color: #8d0f0f;
+    padding: 20px;
+    margin: 15px;
+}
+
 .row {
-    height: 30%;
+    height: 31%;
 }
 
 .heading {
-    color: black;
+    font-size: 70px;
+    color: white;
+    margin-left: 40px;
+}
+
+.headinghours {
+    font-size: 70px;
+    color: white;
+    margin-left: 40px;
 }
 
 .mainMenuImage1 {
     width: 100%;
     height: auto;
+
 }
 
 .mainMenuImage2 {
@@ -46,6 +63,89 @@ body {
 }
 
 .mainMenuImage5 {
-    width: 100%;
+    width: 80%;
     height: auto;
+}
+
+.mainMenuImage6 {
+    width: 70%;
+    height: auto;
+}
+
+.peakMenuImage1 {
+    margin-top: 13%;
+    height: auto;
+    width: 80%;
+}
+
+.peakMenuImage2 {
+    height: auto;
+    width: 80%;
+}
+
+.peakMenuImage3 {
+    height: auto;
+    width: 80%;
+}
+
+.peakMenuImage4 {
+    margin-top: 13%;
+    height: auto;
+    width: 60%;
+}
+
+.peakMenuImage5 {
+    height: auto;
+    width: 80%;
+}
+
+.peakMenuImage6 {
+    height: auto;
+    width: 80%;
+}
+
+.btn {
+    border: 1px solid #930000;
+    font-size: 50px;
+    padding: 15px;
+}
+
+.dropdown-menu {
+    padding: 15px;
+    border: 1px solid #930000;
+    font-size: 50px;
+}
+
+body {
+    overflow: hidden;
+    font-size: 50px;
+}
+
+.content p {
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.GymSchedule img {
+    height: auto;
+    width: 60%;
+}
+
+.hoursPeakTime img {
+    width: 80%;
+}
+
+.accord {
+    border: none;
+}
+
+.accordion {
+    width: 100%;
+    margin: 0%;
+}
+
+.card {
+    width: 100%;
+    margin: 0%;
 }

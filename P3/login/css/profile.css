@@ -38,8 +38,12 @@ body{
 	h4{
 		font-size:200%;
 	}
-	.caret{
-		size:200%;
+	button.dropdown-toggle::after{
+		border-width:20px;
+		border-top-width:30px;
+		border-bottom-style:0;
+		
 	}
+	
 	
 }

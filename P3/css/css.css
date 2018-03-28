@@ -149,3 +149,29 @@ body {
     width: 100%;
     margin: 0%;
 }
+
+.graph {
+    height: 20%;
+    width: 100%;
+
+}
+
+.peakTimesWeightsBottom {
+    height: 210%;
+}
+
+.peakTimesWeightsBottom img {
+    height: 40%;
+    width: 100%;
+}
+
+.accordLabel {
+    color: #8d0f0f;
+}
+
+.accordLabel:focus {
+    color: #8d0f0f;
+}
+.accordLabel: {
+    color: #8d0f0f;
+}

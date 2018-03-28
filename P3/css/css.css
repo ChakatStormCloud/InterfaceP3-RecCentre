@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #bc2d2d;
+    background-color: #da291c;
 }
 
 h2 {
@@ -172,6 +172,7 @@ body {
 .accordLabel:focus {
     color: #8d0f0f;
 }
+
 .accordLabel: {
     color: #8d0f0f;
 }

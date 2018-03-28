@@ -1,0 +1,49 @@
+body{
+	
+}
+
+.header {
+    background-color: #bc2d2d;
+}
+
+.header nav{
+	
+}
+.user-icon-lg{
+	width:auto;
+	height:auto;
+}
+
+
+.pageseparator{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:10px;
+	margin-bottom:10px;
+	height:1px;
+	border:2px solid gray;
+}
+
+@media (max-width: 992px) {
+	h1{
+		font-size:400%;
+	}
+	h2{
+		font-size:350%;
+	}
+	h3{
+		font-size:300%;
+	}
+	h4{
+		font-size:200%;
+	}
+	button.dropdown-toggle::after{
+		border-width:20px;
+		border-top-width:30px;
+		border-bottom-style:0;
+		
+	}
+	
+	
+}

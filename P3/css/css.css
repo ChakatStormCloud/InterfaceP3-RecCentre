@@ -45,7 +45,7 @@ h2 {
 }
 
 .mainMenuImage2 {
-    margin-top: 13%;
+   
     width: 75%;
     height: auto
 }
@@ -161,7 +161,7 @@ body {
 }
 
 .peakTimesWeightsBottom img {
-    height: 40%;
+    height: auto;
     width: 100%;
 }
 
@@ -175,4 +175,18 @@ body {
 
 .accordLabel: {
     color: #8d0f0f;
+}
+
+.back {
+    color: #ffffff;
+    border: none;
+}
+
+.peaktimesButtons img{
+    height: 40%;
+    width: auto;
+}
+
+.mainGraph {
+    height: 40%;
 }

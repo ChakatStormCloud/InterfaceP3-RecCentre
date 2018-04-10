@@ -4,8 +4,12 @@
   background-color: #da291c;
 }
 
+body {
+  background-color: white;
+}
+
 .picture {
-  margin:0 auto 0 0;
+  margin:0 auto 0 -15;
   float:left;
-  display:block;
+  display:inline;
 }

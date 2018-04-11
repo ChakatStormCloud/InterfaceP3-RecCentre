@@ -4,8 +4,21 @@
   background-color: #da291c;
 }
 
+body {
+  background-color: #da291c;
+
+}
+
+.top-container {
+  margin: 15px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 15px black;
+  position:absolute;bottom:0;top:0;right:0;left:0;
+}
+
 .picture {
-  margin:0 auto 0 0;
-  float:left;
-  display:block;
+  margin:0 auto 0 -15;
+  float:right;
+  display:inline;
 }

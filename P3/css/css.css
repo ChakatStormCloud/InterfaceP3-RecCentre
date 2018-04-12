@@ -186,8 +186,19 @@ body {
 .peaktimesButtons img {
     height: 40%;
     width: auto;
+    color: #8d0f0f;
 }
 
 .mainGraph {
     height: 40%;
+}
+
+.google {
+    margin-top: 8%;
+}
+
+.peaktimesclock {
+    margin-top: 10%;
+    height: auto;
+    width: 60%;
 }

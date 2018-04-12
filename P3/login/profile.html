@@ -1,80 +1,81 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="keywords" content="Add, Your, Keywords, Here">
-		<meta name="description" content="Add a description of your website here. This description is used by search engines.">
-		 
-		<title>Profile</title>
-		
-		<!--Bootstrap-->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link href="../css/css.css" rel="stylesheet" type="text/css"/>
-		<link href="css/profile.css" rel="stylesheet" type="text/css"/>
-		
-	</head>
 
-	<body class="">
-		
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-				<!--back button-->
-				<a href="../index.html" class="btn btn-secondary">&lt;Back</a>
-				<p class="navbar-brand heading">Profile</p>
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<div class="btn-group">
-						<button type="button" class="btn btn-danger">Menu</button>
-						<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Add, Your, Keywords, Here">
+    <meta name="description" content="Add a description of your website here. This description is used by search engines.">
+
+    <title>Profile</title>
+
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../css/css.css" rel="stylesheet" type="text/css" />
+    <link href="css/profile.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!--back button-->
+            <a href="index.html" class="btn back"><b>&lt;-</b></a>
+            <p class="navbar-brand heading">Profile</p>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <div class="btn-group">
+                    <a href="index.html"> <button type="button" class="btn btn-danger">Home</button></a>
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<span class="caret"></span>
 							<span class="sr-only">Toggle Dropdown</span>
 							
 						</button>
-						<ul class="dropdown-menu">
-							<li><a href="../index.html">Home</a></li>
-							<li><a href="#">Profile</a></li>
-							<li><a href="#">Settings</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="./loginPage.html">Logout</a></li>
-						</ul>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="./loginPage.html">Logout</a></li>
+                    </ul>
 
-					</div>
-				</div>
-				<!-- /.navbar-collapse -->
-			</div>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
 
-			<!-- /.container-fluid -->
-		</nav>
-		<div class="content">
-			<div class="container-fluid user-details">
-				<div class="row">
-					<div class="col-4">
-						<img src="https://cdn4.iconfinder.com/data/icons/eldorado-user/40/user-128.png" alt="user icon" class="w-100">
-					</div>
-					<div class="col-8">
-						<div class="row p-2 m-3"><b>Joe Smith</b></div>
-						<div class="row text-secondary p-2 m-3 small">joesmith@boring.ca</div>
-					</div>
-				</div>
-			</div>
-			<div class="pageseparator"></div>
-			<!-- buttons -->
-			<div class="container-fluid">
-				
-				<div class="row"><a disabled class="w-100 btn p-2 m-3 btn-outline-dark">Change Email Address</a></div>
-				<div class="row"><a disabled class="w-100 btn p-2 m-3 btn-outline-dark">Change Password</a></div>
-				<div class="row"><a disabled class="w-100 btn p-2 m-3 btn-outline-dark">Settings</a></div>
-				<div class="row"><a disabled class="w-100 btn p-2 m-3 btn-outline-dark">View Classes</a></div>
-			</div>
-			<div class="fixed-bottom bg-secondary p-3">
-				<a disabled class=" btn btn-outline-light" href="loginPage.html">Log Out</a>
-				
-			</div>
-		</div>
-		<!--Bootstrap scripts (don't put anything below here)-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		
-	</body>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="content">
+        <div class="container-fluid user-details">
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://cdn4.iconfinder.com/data/icons/eldorado-user/40/user-128.png" alt="user icon" class="w-100">
+                </div>
+                <div class="col-8">
+                    <div class="row p-2 m-3"><b>Joe Smith</b></div>
+                    <div class="row text-secondary p-2 m-3 small">joesmith@boring.ca</div>
+                </div>
+            </div>
+        </div>
+        <div class="pageseparator"></div>
+        <!-- buttons -->
+        <div class="container-fluid">
+
+            <div class="row"><a disabled class="w-100 btn p-2 m-3 btn-outline-dark">Change Email Address</a></div>
+            <div class="row"><a disabled class="w-100 btn p-2 m-3 btn-outline-dark">Change Password</a></div>
+            <div class="row"><a disabled class="w-100 btn p-2 m-3 btn-outline-dark">Settings</a></div>
+            <div class="row"><a disabled class="w-100 btn p-2 m-3 btn-outline-dark">View Classes</a></div>
+        </div>
+        <div class="fixed-bottom bg-secondary p-3">
+            <a disabled class=" btn btn-outline-light" href="loginPage.html">Log Out</a>
+
+        </div>
+    </div>
+    <!--Bootstrap scripts (don't put anything below here)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
